@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@font-face {
+    font-family: 'CalSans';
+    font-display: swap;
+    src: url("../../../../Downloads/cal-sans/fonts/webfonts/CalSans-SemiBold.woff") format('woff'), url("../../../../Downloads/cal-sans/fonts/webfonts/CalSans-SemiBold.woff2") format("woff2");
+    font-weight: 400;
+
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    min-width: 320px;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    color: #666666;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    flex: 1 1 0;
+}
+
+[class*="__container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
